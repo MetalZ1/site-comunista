@@ -1,0 +1,88 @@
+{
+  "site": {
+    "titulo": "Se Todos Fossem Patrões",
+    "descricao": "Reflexão sobre comunismo e alternativas ao capitalismo",
+    "autor": "Frente Aberta"
+  },
+  "menu": [
+    {
+      "nome": "Início",
+      "id": "inicio"
+    },
+    {
+      "nome": "Sobre",
+      "id": "sobre"
+    },
+    {
+      "nome": "Reflexão",
+      "id": "reflexao"
+    },
+    {
+      "nome": "Recursos",
+      "id": "recursos"
+    },
+    {
+      "nome": "Vídeos",
+      "id": "videos"
+    }
+  ],
+  "paginas": {
+    "inicio": {
+      "titulo": "Se todos fossem patrões, quem trabalharia?",
+      "conteudo": "Todo mundo quer viver melhor. Ter uma casa, cuidar da família, aproveitar a vida e não passar os dias preocupado com as contas.\n\nMuitos sonham em deixar de trabalhar para os outros e se tornarem patrões. Outros esperam um dia conseguir viver dos próprios investimentos.\n\nMas existe uma questão que raramente fazemos: Se todos fossem patrões, quem iria produzir tudo aquilo de que precisamos?"
+    },
+    "sobre": {
+      "titulo": "Sobre este site",
+      "conteudo": "Este site é um espaço de educação política e reflexão sobre alternativas ao sistema capitalista.\n\nA Frente Aberta acredita que é possível construir uma sociedade mais justa, onde o trabalho seja coletivo e equitativo.\n\nNão se trata de eliminar o trabalho, mas de distribuí-lo justamente, eliminando a exploração e permitindo que as pessoas trabalhem por vocação, não por necessidade de sobrevivência."
+    },
+    "reflexao": {
+      "titulo": "A Resposta",
+      "conteudo": "A verdade é que alguém sempre precisará trabalhar. Nas sociedades capitalistas, criou-se uma ilusão: a de que qualquer um pode se tornar patrão e viver sem trabalhar.\n\nMas matematicamente, isso é impossível. Se 100% das pessoas fossem donas de empresa, quem seria o operário? Quem plantaria, construiria, fabricaria?\n\nUma sociedade comunista propõe algo diferente: que o trabalho seja coletivo e equitativo.\n\nIsso significa:\n• Distribuir o trabalho justamente entre todos\n• Eliminar a exploração - quem trabalha fica com o fruto de seu trabalho\n• Trabalhar menos - com eficiência e tecnologia, menos horas seriam necessárias\n• Escolher o que faz - trabalho por vocação, não por necessidade de sobrevivência\n\nEm vez de competir para ser o chefe, cooperamos para construir algo melhor para todos."
+    },
+    "recursos": {
+      "titulo": "Recursos e Materiais",
+      "conteudo": "Aqui você encontra livros, artigos e materiais em domínio público para aprofundar seus conhecimentos sobre comunismo e teorias sociais."
+    },
+    "videos": {
+      "titulo": "Vídeos Recomendados",
+      "conteudo": "Uma seleção de vídeos para ajudar você a entender melhor as ideias comunistas e alternativas ao capitalismo."
+    }
+  },
+  "livros": [
+    {
+      "titulo": "O Manifesto Comunista",
+      "autor": "Karl Marx e Friedrich Engels",
+      "descricao": "O documento fundamental do comunismo, publicado em 1848.",
+      "url": "https://www.marxists.org/portugues/marx/1848/manifest/index.htm"
+    },
+    {
+      "titulo": "O Capital (Resumo)",
+      "autor": "Karl Marx",
+      "descricao": "Análise do sistema capitalista de produção.",
+      "url": "https://www.marxists.org/portugues/marx/index.htm"
+    },
+    {
+      "titulo": "Introdução ao Marxismo",
+      "autor": "Ernest Mandel",
+      "descricao": "Guia acessível para entender o marxismo.",
+      "url": "https://www.marxists.org/portugues/mandel/index.htm"
+    }
+  ],
+  "videos": [
+    {
+      "titulo": "O que é Comunismo?",
+      "descricao": "Vídeo introdutório sobre conceitos básicos do comunismo",
+      "url": "https://www.youtube.com/watch?v=VIDEO_ID_AQUI"
+    },
+    {
+      "titulo": "História do Comunismo",
+      "descricao": "Documentário sobre a história dos movimentos comunistas",
+      "url": "https://www.youtube.com/watch?v=VIDEO_ID_AQUI"
+    },
+    {
+      "titulo": "Capitalismo vs Comunismo",
+      "descricao": "Comparação entre os dois sistemas",
+      "url": "https://www.youtube.com/watch?v=VIDEO_ID_AQUI"
+    }
+  ]
+}
