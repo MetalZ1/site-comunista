@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se Todos Fossem Patrões - Teste</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .teste-info {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 6px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER COM MENU -->
+    <header class="header">
+        <div class="container-header">
+            <div class="logo">
+                <h1>Se Todos Fossem Patrões</h1>
+            </div>
+            <nav class="nav">
+                <a href="#" onclick="mostrarPaginaComBot()">Início</a>
+                <a href="#" onclick="mostrarPaginaQuiz()">Quiz</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- BANNER PRINCIPAL -->
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Se todos<br>fossem<br>patrões,</h1>
+        </div>
+    </section>
+
+    <!-- PERGUNTA CENTRAL -->
+    <section class="pergunta">
+        <h2>Quem trabalharia?</h2>
+    </section>
+
+    <!-- CONTEÚDO -->
+    <section class="conteudo">
+        <div class="container">
+            <div class="teste-info">
+                <h2>🧪 Página de Teste</h2>
+                <p>Esta é uma versão de teste do site com funcionalidades básicas.</p>
+                <p>Clique no botão abaixo para testar o quiz:</p>
+                <button class="btn" style="margin-top: 20px;" onclick="testePopup()">Ver Pop-up do Quiz</button>
+                <button class="btn btn-secundario" style="margin-top: 10px;" onclick="irParaQuiz()">Ir para Página do Quiz</button>
+            </div>
+
+            <article>
+                <h2>Se todos fossem patrões, quem trabalharia?</h2>
+                <p>Todo mundo quer viver melhor. Ter uma casa, cuidar da família, aproveitar a vida e não passar os dias preocupado com as contas.</p>
+
+                <p>Muitos sonham em deixar de trabalhar para os outros e se tornarem patrões. Outros esperam um dia conseguir viver dos próprios investimentos.</p>
+
+                <p style="font-style: italic; color: #666;">Mas existe uma questão que raramente fazemos:</p>
+
+                <h3>Se todos fossem patrões, quem iria produzir tudo aquilo de que precisamos?</h3>
+
+                <p>A verdade é que <strong>alguém sempre precisará trabalhar</strong>. Nas sociedades capitalistas, criou-se uma ilusão: a de que qualquer um pode se tornar patrão e viver sem trabalhar.</p>
+
+                <p>Mas matematicamente, isso é impossível. Se 100% das pessoas fossem donas de empresa, quem seria o operário? Quem plantaria, construiria, fabricaria?</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <p>Frente Aberta - Educação Política e Construção Coletiva</p>
+    </footer>
+
+    <!-- POP-UP DO QUIZ -->
+    <div id="popup-quiz" class="popup-overlay" style="display: none;">
+        <div class="popup-conteudo">
+            <button class="popup-fechar" onclick="fecharPopup()">✕</button>
+            <h2>Você sabe o que é o comunismo?</h2>
+            <p>Responda essas 5 perguntas para avaliar se você está sendo enganado.</p>
+            <button class="btn-quiz" onclick="irParaQuiz()">Responder o Quiz</button>
+        </div>
+    </div>
+
+    <script>
+        function testePopup() {
+            document.getElementById('popup-quiz').style.display = 'flex';
+        }
+
+        function fecharPopup() {
+            document.getElementById('popup-quiz').style.display = 'none';
+        }
+
+        function irParaQuiz() {
+            window.location.href = 'quiz.html';
+        }
+
+        // Fechar pop-up ao clicar fora
+        document.addEventListener('click', function(event) {
+            const popup = document.getElementById('popup-quiz');
+            if (popup && event.target === popup) {
+                fecharPopup();
+            }
+        });
+
+        function mostrarPaginaComBot() {
+            alert('Página inicial carregada!');
+        }
+
+        function mostrarPaginaQuiz() {
+            alert('Clique no botão abaixo para ir ao quiz!');
+        }
+    </script>
+</body>
+</html>
