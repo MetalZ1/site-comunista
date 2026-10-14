@@ -125,5 +125,36 @@ function carregarVideos() {
     });
 }
 
+// Funções do Pop-up do Quiz
+function fecharPopup() {
+    const popup = document.getElementById('popup-quiz');
+    popup.style.display = 'none';
+    localStorage.setItem('popup-quiz-fechado', 'true');
+}
+
+function irParaQuiz() {
+    window.location.href = 'quiz.html';
+}
+
+// Mostrar pop-up apenas se não foi fechado antes
+function mostrarPopupSeNecessario() {
+    if (!localStorage.getItem('popup-quiz-fechado')) {
+        document.getElementById('popup-quiz').style.display = 'flex';
+    } else {
+        document.getElementById('popup-quiz').style.display = 'none';
+    }
+}
+
+// Fechar pop-up ao clicar fora dele
+document.addEventListener('click', function(event) {
+    const popup = document.getElementById('popup-quiz');
+    if (popup && event.target === popup) {
+        fecharPopup();
+    }
+});
+
 // Iniciar quando a página carregar
-document.addEventListener('DOMContentLoaded', carregarDados);
+document.addEventListener('DOMContentLoaded', function() {
+    carregarDados();
+    mostrarPopupSeNecessario();
+});

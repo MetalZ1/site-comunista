@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Você Conhece o Comunismo?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .quiz-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .quiz-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .quiz-header h1 {
+            font-family: 'Anton', Impact, sans-serif;
+            color: #B3121F;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .quiz-progresso {
+            background: #f0f0f0;
+            height: 8px;
+            border-radius: 4px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .quiz-progresso-barra {
+            background: #B3121F;
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+
+        .questao {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .questao.escondida {
+            display: none;
+        }
+
+        .questao-numero {
+            color: #B3121F;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .questao h2 {
+            font-family: 'Source Serif 4', Georgia, serif;
+            font-size: 22px;
+            color: #141413;
+            margin-bottom: 30px;
+            line-height: 1.4;
+        }
+
+        .opcoes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .opcao {
+            position: relative;
+        }
+
+        .opcao input[type="radio"] {
+            display: none;
+        }
+
+        .opcao label {
+            display: block;
+            padding: 15px 20px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            cursor: pointer;
+            text-align: center;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            user-select: none;
+        }
+
+        .opcao label:hover {
+            border-color: #B3121F;
+            background: #f5f5f5;
+        }
+
+        .opcao input[type="radio"]:checked + label {
+            background: #B3121F;
+            color: white;
+            border-color: #B3121F;
+        }
+
+        .btn-prosseguir {
+            display: block;
+            margin: 0 auto;
+            background: #B3121F;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .btn-prosseguir:hover {
+            background: #9B0F1B;
+        }
+
+        .btn-prosseguir:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        /* RESULTADO */
+        .resultado {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .resultado.escondido {
+            display: none;
+        }
+
+        .resultado h2 {
+            font-family: 'Anton', Impact, sans-serif;
+            font-size: 36px;
+            color: #B3121F;
+            margin-bottom: 20px;
+        }
+
+        .resultado-pontos {
+            font-size: 48px;
+            font-weight: bold;
+            color: #B3121F;
+            margin: 20px 0;
+        }
+
+        .resultado-mensagem {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+            margin: 30px 0;
+        }
+
+        .resultado-feedback {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+            border-left: 4px solid #B3121F;
+            text-align: left;
+        }
+
+        .btn-voltar {
+            background: #141413;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        .btn-voltar:hover {
+            background: #333;
+        }
+
+        @media (max-width: 768px) {
+            .opcoes {
+                grid-template-columns: 1fr;
+            }
+
+            .quiz-header h1 {
+                font-size: 28px;
+            }
+
+            .resultado h2 {
+                font-size: 28px;
+            }
+
+            .resultado-pontos {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER COM MENU -->
+    <header class="header">
+        <div class="container-header">
+            <div class="logo">
+                <h1>Se Todos Fossem Patrões</h1>
+            </div>
+            <nav class="nav">
+                <a href="index.html">← Voltar ao Site</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO DO QUIZ -->
+    <section class="conteudo">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1>🧠 Quiz: Você Conhece o Comunismo?</h1>
+                <p style="font-size: 16px; color: #666;">Responda com sinceridade. Não há respostas certas ou erradas... bem, na verdade há. 😉</p>
+                <div class="quiz-progresso">
+                    <div class="quiz-progresso-barra" id="progresso"></div>
+                </div>
+            </div>
+
+            <!-- QUESTÕES -->
+            <div id="questoes-container"></div>
+
+            <!-- RESULTADO -->
+            <div id="resultado" class="resultado escondido"></div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <p>Frente Aberta - Educação Política e Construção Coletiva</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
