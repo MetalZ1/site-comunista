@@ -13,10 +13,15 @@
     <header class="header">
         <div class="container-header">
             <div class="logo">
-                <h1 id="site-titulo">Se Todos Fossem Patrões</h1>
+                <h1>Se Todos Fossem Patrões</h1>
             </div>
             <nav class="nav" id="menu-nav">
-                <!-- Menu carregado dinamicamente pelo JavaScript -->
+                <a href="#" onclick="mostrarPagina('inicio'); return false;" class="menu-link ativo">Início</a>
+                <a href="#" onclick="mostrarPagina('direita-esquerda'); return false;" class="menu-link">Direita e Esquerda</a>
+                <a href="#" onclick="mostrarPagina('sobre'); return false;" class="menu-link">Sobre</a>
+                <a href="#" onclick="mostrarPagina('reflexao'); return false;" class="menu-link">Reflexão</a>
+                <a href="#" onclick="mostrarPagina('recursos'); return false;" class="menu-link">Recursos</a>
+                <a href="#" onclick="mostrarPagina('videos'); return false;" class="menu-link">Vídeos</a>
             </nav>
         </div>
     </header>
@@ -42,29 +47,25 @@
         </div>
     </section>
 
-    <!-- SEÇÃO DE LIVROS (aparece apenas em "Recursos") -->
+    <!-- SEÇÃO DE LIVROS -->
     <section class="secao-recursos" id="secao-livros" style="display: none;">
         <div class="container">
             <h2>📚 Livros para Download</h2>
-            <div class="grid-recursos" id="lista-livros">
-                <!-- Livros carregados dinamicamente -->
-            </div>
+            <div class="grid-recursos" id="lista-livros"></div>
         </div>
     </section>
 
-    <!-- SEÇÃO DE VÍDEOS (aparece apenas em "Vídeos") -->
+    <!-- SEÇÃO DE VÍDEOS -->
     <section class="secao-recursos" id="secao-videos" style="display: none;">
         <div class="container">
             <h2>🎬 Vídeos Recomendados</h2>
-            <div class="grid-recursos" id="lista-videos">
-                <!-- Vídeos carregados dinamicamente -->
-            </div>
+            <div class="grid-recursos" id="lista-videos"></div>
         </div>
     </section>
 
     <!-- RODAPÉ -->
     <footer class="rodape">
-        <p id="rodape-texto">Frente Aberta - Educação Política e Construção Coletiva</p>
+        <p>Frente Aberta - Educação Política e Construção Coletiva</p>
     </footer>
 
     <!-- POP-UP DO QUIZ -->
@@ -77,6 +78,6 @@
         </div>
     </div>
 
-    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
