@@ -10,6 +10,10 @@
       "id": "inicio"
     },
     {
+      "nome": "Direita e Esquerda",
+      "id": "direita-esquerda"
+    },
+    {
       "nome": "Sobre",
       "id": "sobre"
     },
@@ -30,6 +34,10 @@
     "inicio": {
       "titulo": "Se todos fossem patrões, quem trabalharia?",
       "conteudo": "Todo mundo quer viver melhor. Ter uma casa, cuidar da família, aproveitar a vida e não passar os dias preocupado com as contas.\n\nMuitos sonham em deixar de trabalhar para os outros e se tornarem patrões. Outros esperam um dia conseguir viver dos próprios investimentos.\n\nMas existe uma questão que raramente fazemos: Se todos fossem patrões, quem iria produzir tudo aquilo de que precisamos?"
+    },
+    "direita-esquerda": {
+      "titulo": "O que são \"direita\" e \"esquerda\"?",
+      "conteudo": "Esses termos estão em toda parte atualmente, mas a verdade é que eles não querem dizer muita coisa. Direita e esquerda são termos sem conteúdo e variam bastante conforme a política de cada país e os partidos envolvidos. O que podemos afirmar é que ambas acreditam no capitalismo! Cada um à sua maneira...\n\nNo contexto do Brasil, os termos normalmente são utilizados no seguinte sentido:\n\nA Esquerda acredita que o mercado tem falhas que precisam ser consertadas pelo Estado! Ou seja, eles defendem uma maior intervenção para corrigir essas falhas e manter o capitalismo acontecendo, mesmo com todos os seus problemas.\n\nA Direita, por outro lado, acredita que o Estado deve agir o mínimo possível. Sendo o Estado uma entidade externa ao mercado, suas ações na maioria das vezes acabaria por perturbar a ordem natural do livre comércio e prejudicar a vida das pessoas.\n\nNa prática, essa diferença não é tão grande, principalmente nos dias de hoje, mas isso é melhor tratado na aba \"a importância do Estado no capitalismo atual\", caso o leitor tenha interesse.\n\nO que nós podemos ter certeza é o seguinte: os dois lados governam para que os ricos continuem a explorar nosso trabalho. Sabe essa sua impressão de que não importa o governo, os políticos nunca estão de fato do lado do povo? Pois é. Você também já tinha percebido!\n\nPera aí, você ta me dizendo então que o Comunismo não é de esquerda?\n\nDe certo modo, é isso mesmo! O comunismo não é uma maneira de tentar administrar o capitalismo. Nós sabemos que tanto a Esquerda quanto a Direita vão falhar em fornecer uma sociedade justa para 99% da população.\n\nO que nós defendemos é uma mudança na forma em que a sociedade se organiza.\n\nEu sei que isso dá medo, mas calma! Todos nós já ouvimos os maiores absurdos sobre países comunistas e é normal ter esse receio. Mas se isso fosse verdade mesmo, porquê alguém em sã consciência defenderia essas ideias?\n\nNeste site você terá todos os materiais disponíveis para tirar suas próprias conclusões sobre o tema, mesmo que seja para discordar de nós!\n\nNos vemos nos próximos materiais.\nAté lá!"
     },
     "sobre": {
       "titulo": "Sobre este site",
