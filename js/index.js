@@ -1,4 +1,3 @@
-// Conteúdo das páginas
 const paginas = {
     inicio: {
         titulo: "Se todos fossem patrões, quem trabalharia?",
@@ -6,7 +5,9 @@ const paginas = {
 
 <p>Muitos sonham em deixar de trabalhar para os outros e se tornarem patrões. Outros esperam um dia conseguir viver dos próprios investimentos.</p>
 
-<p>Mas existe uma questão que raramente fazemos: <strong>Se todos fossem patrões, quem iria produzir tudo aquilo de que precisamos?</strong></p>`
+<p><em>Mas existe uma questão que raramente fazemos:</em></p>
+
+<p><strong>Se todos fossem patrões, quem iria produzir tudo aquilo de que precisamos?</strong></p>`
     },
 
     "direita-esquerda": {
@@ -15,13 +16,13 @@ const paginas = {
 
 <p>No contexto do Brasil, os termos normalmente são utilizados no seguinte sentido:</p>
 
-<h3>A Esquerda</h3>
-<p>Acredita que o mercado tem falhas que precisam ser consertadas pelo Estado! Ou seja, eles defendem uma maior intervenção para corrigir essas falhas e manter o capitalismo acontecendo, mesmo com todos os seus problemas.</p>
+<p><strong>A Esquerda</strong> acredita que o mercado tem falhas que precisam ser consertadas pelo Estado! Ou seja, eles defendem uma maior intervenção para corrigir essas falhas e manter o capitalismo acontecendo, mesmo com todos os seus problemas.</p>
 
-<h3>A Direita</h3>
-<p>Por outro lado, acredita que o Estado deve agir o mínimo possível. Sendo o Estado uma entidade externa ao mercado, suas ações na maioria das vezes acabaria por perturbar a ordem natural do livre comércio e prejudicar a vida das pessoas.</p>
+<p><strong>A Direita</strong>, por outro lado, acredita que o Estado deve agir o mínimo possível. Sendo o Estado uma entidade externa ao mercado, suas ações na maioria das vezes acabaria por perturbar a ordem natural do livre comércio e prejudicar a vida das pessoas.</p>
 
-<p>Na prática, essa diferença não é tão grande, principalmente nos dias de hoje. O que nós podemos ter certeza é o seguinte: os dois lados governam para que os ricos continuem a explorar nosso trabalho. Sabe essa sua impressão de que não importa o governo, os políticos nunca estão de fato do lado do povo? Pois é. Você também já tinha percebido!</p>
+<p>Na prática, essa diferença não é tão grande, principalmente nos dias de hoje, mas isso é melhor tratado na aba "a importância do Estado no capitalismo atual", caso o leitor tenha interesse.</p>
+
+<p>O que nós podemos ter certeza é o seguinte: os dois lados governam para que os ricos continuem a explorar nosso trabalho. Sabe essa sua impressão de que não importa o governo, os políticos nunca estão de fato do lado do povo? Pois é. Você também já tinha percebido!</p>
 
 <h3>Pera aí, você ta me dizendo então que o Comunismo não é de esquerda?</h3>
 
@@ -33,62 +34,32 @@ const paginas = {
 
 <p>Neste site você terá todos os materiais disponíveis para tirar suas próprias conclusões sobre o tema, mesmo que seja para discordar de nós!</p>
 
-<p><strong>Nos vemos nos próximos materiais.<br>Até lá!</strong></p>`
-    },
-
-    sobre: {
-        titulo: "Sobre este site",
-        conteudo: `<p>Este site é um espaço de educação política e reflexão sobre alternativas ao sistema capitalista.</p>
-
-<p>A Frente Aberta acredita que é possível construir uma sociedade mais justa, onde o trabalho seja coletivo e equitativo.</p>
-
-<p>Não se trata de eliminar o trabalho, mas de distribuí-lo justamente, eliminando a exploração e permitindo que as pessoas trabalhem por vocação, não por necessidade de sobrevivência.</p>`
-    },
-
-    reflexao: {
-        titulo: "A Resposta",
-        conteudo: `<p>A verdade é que <strong>alguém sempre precisará trabalhar</strong>. Nas sociedades capitalistas, criou-se uma ilusão: a de que qualquer um pode se tornar patrão e viver sem trabalhar.</p>
-
-<p>Mas matematicamente, isso é impossível. Se 100% das pessoas fossem donas de empresa, quem seria o operário? Quem plantaria, construiria, fabricaria?</p>
-
-<p>Uma sociedade comunista propõe algo diferente: que o trabalho seja coletivo e equitativo.</p>
-
-<h3>Isso significa:</h3>
-<ul>
-<li>Distribuir o trabalho justamente entre todos</li>
-<li>Eliminar a exploração - quem trabalha fica com o fruto de seu trabalho</li>
-<li>Trabalhar menos - com eficiência e tecnologia, menos horas seriam necessárias</li>
-<li>Escolher o que faz - trabalho por vocação, não por necessidade de sobrevivência</li>
-</ul>
-
-<p>Em vez de competir para ser o chefe, cooperamos para construir algo melhor para todos.</p>`
+<p>Nos vemos nos próximos materiais.<br>Até lá!</p>`
     },
 
     "trabalhadores-app": {
-        titulo: "Trabalhadores de Aplicativo: Empreendedores ou Assalariados?",
+        titulo: "Trabalhadores de aplicativo: empreendedores ou trabalhadores assalariados?",
         conteudo: `<p>Você tem sua própria moto ou carro. Faz seus horários e decide quando ligar o aplicativo. Então, você é seu próprio patrão, não é mesmo?</p>
 
 <p><strong>Pense melhor.</strong></p>
 
 <p>Quem decide quanto você recebe por uma corrida? Quem estabelece as regras e pode bloquear seu acesso ao trabalho?</p>
 
-<p>Você pode ser dono do carro, moto ou bicicleta, mas não controla o aplicativo que conecta você aos clientes. <strong>Sem o aplicativo, você não trabalha.</strong></p>
+<p>Você pode ser dono do carro, moto ou bicicleta, mas não controla o aplicativo que conecta você aos clientes. Sem o aplicativo, você não trabalha.</p>
 
 <p>E o pior: ainda é você quem paga o combustível, a manutenção, a internet e os demais custos. Se o veículo quebra ou o movimento cai, o prejuízo é seu!</p>
 
-<p>No final das contas, <strong>trabalhar nos aplicativos é apenas mais uma forma de trabalho assalariado. E a pior delas, sabia?</strong></p>
-
-<h3>O Trabalho por Peça de Marx</h3>
+<p>No final das contas, trabalhar nos aplicativos é apenas mais uma forma de trabalho assalariado. E a pior delas, sabia?</p>
 
 <p>Karl Marx no século XIX já tinha se tocado disso. Na época, ele chamava de "trabalho por peça". Alguns trabalhadores ingleses trabalhavam de casa com seus próprios equipamentos e entregavam para a empresa a que estava vinculado as peças que havia produzido. O salário, então, era pago por cada peça.</p>
 
-<p>E por que Marx falava que esse é a pior modalidade para o trabalhador? <strong>Porque para a empresa, ela é a melhor!</strong></p>
+<p>E por que Marx falava que esse é a pior modalidade para o trabalhador? Porque para a empresa, ela é a melhor!</p>
 
 <p>O empregador não mais precisa fornecer as máquinas e equipamentos de trabalho, não precisa gastar com manutenção, férias, 13º e, além de tudo, consegue transferir todo o risco para o trabalhador.</p>
 
 <p>Caso você se machuque, nem um centavo lhe é direcionado. Mas quando tiver entrega a ser feita, a empresa sabe que pode contar com você para colocar o lucro no bolso dela, logo após te pagar uma mixaria.</p>
 
-<p><strong>A exploração nessa modalidade de trabalho é absurda.</strong> Tanto é que para manter níveis aceitáveis de remuneração os trabalhadores devem fazer jornadas cada vez maiores, aumentando muito o lucro da empresa e pouco o salário no final do dia.</p>
+<p>A exploração nessa modalidade de trabalho é absurda. Tanto é que para manter níveis aceitáveis de remuneração os trabalhadores devem fazer jornadas cada vez maiores, aumentando muito o lucro da empresa e pouco o salário no final do dia.</p>
 
 <h3>O que podemos fazer?</h3>
 
@@ -96,143 +67,41 @@ const paginas = {
 
 <p>Motoristas e entregadores dependem das mesmas plataformas e enfrentam problemas semelhantes. Por isso, podem se organizar coletivamente para exigir remuneração justa, transparência nas taxas e poder de decisão sobre as condições de trabalho.</p>
 
-<p>Marx percebeu que o poder do capitalista sobre o trabalhador só existe enquanto o trabalhador deixar, sendo sua maior arma <strong>a organização!</strong> Leia mais sobre isso na seção "Reflexão".</p>
+<p>Marx percebeu que o poder do capitalista sobre o trabalhador só existe enquanto o trabalhador deixar, sendo sua maior arma a organização! Leia mais sobre isso na seção "Qual foi a maior descoberta de Marx?".</p>
 
 <p>Se milhares de trabalhadores são necessários para fazer essas empresas funcionarem, por que as regras são decididas tão longe de quem realiza o serviço?</p>
 
 <p><strong>Leia. Questione. Organize-se.</strong></p>
 
 <p>A riqueza é produzida por quem trabalha. Os rumos do trabalho também devem ser decididos por quem trabalha.</p>`
-    },
-
-    recursos: {
-        titulo: "Recursos e Materiais",
-        conteudo: `<p>Aqui você encontra livros, artigos e materiais em domínio público para aprofundar seus conhecimentos sobre comunismo e teorias sociais.</p>`
-    },
-
-    videos: {
-        titulo: "Vídeos Recomendados",
-        conteudo: `<p>Uma seleção de vídeos para ajudar você a entender melhor as ideias comunistas e alternativas ao capitalismo.</p>`
     }
 };
 
-// Livros
-const livros = [
-    {
-        titulo: "O Manifesto Comunista",
-        autor: "Karl Marx e Friedrich Engels",
-        descricao: "O documento fundamental do comunismo, publicado em 1848.",
-        url: "https://www.marxists.org/portugues/marx/1848/manifest/index.htm"
-    },
-    {
-        titulo: "O Capital (Resumo)",
-        autor: "Karl Marx",
-        descricao: "Análise do sistema capitalista de produção.",
-        url: "https://www.marxists.org/portugues/marx/index.htm"
-    },
-    {
-        titulo: "Introdução ao Marxismo",
-        autor: "Ernest Mandel",
-        descricao: "Guia acessível para entender o marxismo.",
-        url: "https://www.marxists.org/portugues/mandel/index.htm"
-    }
-];
-
-// Vídeos
-const videos = [
-    {
-        titulo: "O que é Comunismo?",
-        descricao: "Vídeo introdutório sobre conceitos básicos do comunismo",
-        url: "https://www.youtube.com/watch?v=VIDEO_ID_AQUI"
-    },
-    {
-        titulo: "História do Comunismo",
-        descricao: "Documentário sobre a história dos movimentos comunistas",
-        url: "https://www.youtube.com/watch?v=VIDEO_ID_AQUI"
-    },
-    {
-        titulo: "Capitalismo vs Comunismo",
-        descricao: "Comparação entre os dois sistemas",
-        url: "https://www.youtube.com/watch?v=VIDEO_ID_AQUI"
-    }
-];
-
-// Função para mostrar página
 function mostrarPagina(id) {
     const pagina = paginas[id];
     if (!pagina) return;
 
-    // Atualizar conteúdo
     document.getElementById('conteudo-principal').innerHTML = `<h2>${pagina.titulo}</h2>${pagina.conteudo}`;
 
-    // Mostrar/esconder seções
-    document.getElementById('secao-livros').style.display = id === 'recursos' ? 'block' : 'none';
-    document.getElementById('secao-videos').style.display = id === 'videos' ? 'block' : 'none';
+    document.querySelectorAll('.menu-link').forEach(link => {
+        link.classList.toggle('ativo', link.dataset.pagina === id);
+    });
 
-    // Carregar livros e vídeos
-    if (id === 'recursos') carregarLivros();
-    if (id === 'videos') carregarVideos();
-
-    // Atualizar menu ativo
-    document.querySelectorAll('.menu-link').forEach(link => link.classList.remove('ativo'));
-    event.target.classList.add('ativo');
-
-    // Scroll para o topo
     window.scrollTo(0, 0);
 }
 
-// Carregar livros
-function carregarLivros() {
-    const lista = document.getElementById('lista-livros');
-    lista.innerHTML = livros.map(livro => `
-        <div class="card-recurso">
-            <h3>${livro.titulo}</h3>
-            <p class="autor">por ${livro.autor}</p>
-            <p>${livro.descricao}</p>
-            <a href="${livro.url}" target="_blank" class="botao">Acessar</a>
-        </div>
-    `).join('');
-}
-
-// Carregar vídeos
-function carregarVideos() {
-    const lista = document.getElementById('lista-videos');
-    lista.innerHTML = videos.map(video => `
-        <div class="card-recurso">
-            <h3>${video.titulo}</h3>
-            <p>${video.descricao}</p>
-            <a href="${video.url}" target="_blank" class="botao">Assistir</a>
-        </div>
-    `).join('');
-}
-
-// Funções do pop-up
 function fecharPopup() {
     document.getElementById('popup-quiz').style.display = 'none';
-    localStorage.setItem('popup-fechado', 'true');
 }
 
 function irParaQuiz() {
     window.location.href = 'quiz.html';
 }
 
-// Fechar pop-up ao clicar fora
 document.addEventListener('click', function(event) {
-    const popup = document.getElementById('popup-quiz');
-    if (popup && event.target === popup) {
-        fecharPopup();
-    }
+    if (event.target.id === 'popup-quiz') fecharPopup();
 });
 
-// Mostrar pop-up na primeira vez
-function mostrarPopup() {
-    if (!localStorage.getItem('popup-fechado')) {
-        document.getElementById('popup-quiz').style.display = 'flex';
-    }
-}
-
-// Inicializar
 document.addEventListener('DOMContentLoaded', function() {
     mostrarPagina('inicio');
-    mostrarPopup();
 });
