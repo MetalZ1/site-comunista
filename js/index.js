@@ -64,6 +64,47 @@ const paginas = {
 <p>Em vez de competir para ser o chefe, cooperamos para construir algo melhor para todos.</p>`
     },
 
+    "trabalhadores-app": {
+        titulo: "Trabalhadores de Aplicativo: Empreendedores ou Assalariados?",
+        conteudo: `<p>Você tem sua própria moto ou carro. Faz seus horários e decide quando ligar o aplicativo. Então, você é seu próprio patrão, não é mesmo?</p>
+
+<p><strong>Pense melhor.</strong></p>
+
+<p>Quem decide quanto você recebe por uma corrida? Quem estabelece as regras e pode bloquear seu acesso ao trabalho?</p>
+
+<p>Você pode ser dono do carro, moto ou bicicleta, mas não controla o aplicativo que conecta você aos clientes. <strong>Sem o aplicativo, você não trabalha.</strong></p>
+
+<p>E o pior: ainda é você quem paga o combustível, a manutenção, a internet e os demais custos. Se o veículo quebra ou o movimento cai, o prejuízo é seu!</p>
+
+<p>No final das contas, <strong>trabalhar nos aplicativos é apenas mais uma forma de trabalho assalariado. E a pior delas, sabia?</strong></p>
+
+<h3>O Trabalho por Peça de Marx</h3>
+
+<p>Karl Marx no século XIX já tinha se tocado disso. Na época, ele chamava de "trabalho por peça". Alguns trabalhadores ingleses trabalhavam de casa com seus próprios equipamentos e entregavam para a empresa a que estava vinculado as peças que havia produzido. O salário, então, era pago por cada peça.</p>
+
+<p>E por que Marx falava que esse é a pior modalidade para o trabalhador? <strong>Porque para a empresa, ela é a melhor!</strong></p>
+
+<p>O empregador não mais precisa fornecer as máquinas e equipamentos de trabalho, não precisa gastar com manutenção, férias, 13º e, além de tudo, consegue transferir todo o risco para o trabalhador.</p>
+
+<p>Caso você se machuque, nem um centavo lhe é direcionado. Mas quando tiver entrega a ser feita, a empresa sabe que pode contar com você para colocar o lucro no bolso dela, logo após te pagar uma mixaria.</p>
+
+<p><strong>A exploração nessa modalidade de trabalho é absurda.</strong> Tanto é que para manter níveis aceitáveis de remuneração os trabalhadores devem fazer jornadas cada vez maiores, aumentando muito o lucro da empresa e pouco o salário no final do dia.</p>
+
+<h3>O que podemos fazer?</h3>
+
+<p>O problema não se resolve com cada trabalhador tentando fazer mais corridas, trabalhar mais horas ou gastar menos.</p>
+
+<p>Motoristas e entregadores dependem das mesmas plataformas e enfrentam problemas semelhantes. Por isso, podem se organizar coletivamente para exigir remuneração justa, transparência nas taxas e poder de decisão sobre as condições de trabalho.</p>
+
+<p>Marx percebeu que o poder do capitalista sobre o trabalhador só existe enquanto o trabalhador deixar, sendo sua maior arma <strong>a organização!</strong> Leia mais sobre isso na seção "Reflexão".</p>
+
+<p>Se milhares de trabalhadores são necessários para fazer essas empresas funcionarem, por que as regras são decididas tão longe de quem realiza o serviço?</p>
+
+<p><strong>Leia. Questione. Organize-se.</strong></p>
+
+<p>A riqueza é produzida por quem trabalha. Os rumos do trabalho também devem ser decididos por quem trabalha.</p>`
+    },
+
     recursos: {
         titulo: "Recursos e Materiais",
         conteudo: `<p>Aqui você encontra livros, artigos e materiais em domínio público para aprofundar seus conhecimentos sobre comunismo e teorias sociais.</p>`
